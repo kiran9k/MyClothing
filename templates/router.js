@@ -4,7 +4,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 
-import indexPage from './main/index.vue';
+import indexPage from './main/index1.vue';
 
 Vue.use(VueRouter);
 
