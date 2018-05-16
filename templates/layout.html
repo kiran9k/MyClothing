@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="title" content="Proper Cloth" />
+    <title>My Clothing</title>
+
+
+
+    <meta property="og:image" content="https://cdn.propercloth.com/images/get-started/og-image.jpg" />
+    <meta name="twitter:image" content="https://cdn.propercloth.com/images/get-started/og-image.jpg">
+
+
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/styles-boot.css">
+    <link type="text/css" rel="stylesheet" href="css/size-survey_ss6.css">
+
+
+</head>
+
+<body class="page-size-survey">
+
+    <!--[if lt IE 9]>
+        <p class="browserupgrade">We no longer support the web browser you are using. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script>
+        document.createElement("picture");
+    </script>
+    
+
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top nav2" role="navigation">
+        <div class="container">
+
+
+            <a class="navbar-brand " href="https://propercloth.com/">
+                <span class="text-uppercase" style="font-size:20px"> My Clothing</span></a>
+
+
+           
+
+
+
+
+        </div>
+    </nav>
+
+    {% block body %}{% endblock %}
+    <main class="main" id="app" >
+        <div v-cloak>
+            <router-view></router-view>
+        </div>
+    </main>
+    
+    <footer class="footer hidden-xs">
+        <div class="container">
+
+            <nav role="navigation">
+                <div class="col-md-4 hidden-sm address">
+                    <div class="footer-logo">
+                        <a href="https://propercloth.com/">
+                        <img src="images/shirt.jpg" width="115">
+                      </a>
+                    </div>
+                    My Clothing
+                    <br> 495 Broadway
+                    <br> New York, NY 10012
+                    <!-- <br> -->
+                    <!-- (646) 964-4221 -->
+
+                    <div class="social">
+                        <a href="https://facebook.com/propercloth" target="_blank">Facebook</a>
+                        <a href="https://instagram.com/propercloth" target="_blank">Instagram</a>
+                        <a href="https://twitter.com/propercloth" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="title">About Us</div>
+                    <a rel="nofollow" href="https://propercloth.com/about">Our Story</a>
+                    <a rel="nofollow" href="https://propercloth.com/press">Press Coverage</a>
+                    <a rel="nofollow" href="https://propercloth.com/careers">Careers &amp; Internships</a>
+                    <a rel="nofollow" href="https://propercloth.com/perfect-fit-guarantee">Perfect Fit Guarantee</a>
+                    <hr>
+                    <a rel="nofollow" href="https://propercloth.com/terms">Terms &amp; Conditions</a>
+                    <a rel="nofollow" href="https://propercloth.com/sitemap">Sitemap</a>
+                    <span>&copy; 2018</span>
+                    <div id="GTS_CONTAINER"></div>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="title">Shop</div>
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirt-gift-certificate">Gift Certificates</a>
+                    <a rel="nofollow" href="https://propercloth.com/sizes">Create a Custom Size</a>
+                    <a rel="nofollow" href="https://propercloth.com/design-a-shirt">Design a Shirt</a>
+                    <a rel="nofollow" href="https://propercloth.com/fabrics">Shirt Fabrics</a>
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirts">Shirt Gallery</a>
+                    <a rel="nofollow" href="https://propercloth.com/collections">Our Collections</a>
+                    <a rel="nofollow" href="https://propercloth.com/collar-styles">Collar Styles</a>
+                    <a rel="nofollow" href="https://propercloth.com/accessories">Accessories</a> &nbsp;
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="title">Help</div>
+                    <a rel="nofollow" href="https://propercloth.com/reference/ordering-fabric-samples/">Ordering Fabric Samples</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/care/">How to Care for Shirts</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/dress-shirt-shrink/">How Dress Shirts Shrink</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/common-fit-problems/">Common Fit Problems</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/dress-shirt-body-measurements/">How to Measure Your Body</a>
+                    <a rel="nofollow" href="https://propercloth.com/rewards">Earn Rewards</a>
+                    <a rel="nofollow" href="https://propercloth.com/shipping">Shipping &amp; Fast Delivery</a>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="title">Support</div>
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirt-reviews">Customer Reviews</a>
+                    <a rel="nofollow" href="https://propercloth.com/account/orders">Track an Existing Order</a>
+                    <a rel="nofollow" href="https://propercloth.com/return-policy">Return Policy</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/general-advice-for-requesting-dress-shirt-alterations/">Alterations &amp; Remakes</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/style/">Style Advice</a>
+                    <a rel="nofollow" href="https://propercloth.com/reference/special-events/">Special Events</a>
+                    <a rel="nofollow" href="https://propercloth.com/appointment">Schedule a Fitting</a>
+                    <a rel="nofollow" href="https://propercloth.com/contact">Contact Us</a> &nbsp;
+                </div>
+                <div class="col-md-4 visible-sm address">
+
+                    <div class="geo" data-pos="top">
+
+                        <div class="selector ">
+                            <div class="current"></div>
+                            <div class="inner">
+                                <div class="columns">
+                                    <div class="col">
+                                        <a href="#" class="country flag-us active "><span data-country-id="1" data-currency-id="1"  class="flag"></span> <span>United States</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-ca  "><span data-country-id="2" data-currency-id="2"  class="flag"></span> <span>Canada</span> <span class="curr-code">(CAD)</span></a>
+                                        <a href="#" class="country flag-ra  "><span data-country-id="11" data-currency-id="1"  class="flag"></span> <span>Argentina</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-au  "><span data-country-id="14" data-currency-id="3"  class="flag"></span> <span>Australia</span> <span class="curr-code">(AUD)</span></a>
+                                        <a href="#" class="country flag-at  "><span data-country-id="15" data-currency-id="5"  class="flag"></span> <span>Austria</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-be  "><span data-country-id="22" data-currency-id="5"  class="flag"></span> <span>Belgium</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-br  "><span data-country-id="31" data-currency-id="1"  class="flag"></span> <span>Brazil</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-bg  "><span data-country-id="34" data-currency-id="5"  class="flag"></span> <span>Bulgaria</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-cn  "><span data-country-id="45" data-currency-id="1"  class="flag"></span> <span>China</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-hr  "><span data-country-id="51" data-currency-id="5"  class="flag"></span> <span>Croatia</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-cy  "><span data-country-id="53" data-currency-id="5"  class="flag"></span> <span>Cyprus</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-cz  "><span data-country-id="54" data-currency-id="5"  class="flag"></span> <span>Czech Republic</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-dk  "><span data-country-id="55" data-currency-id="5"  class="flag"></span> <span>Denmark</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-ee  "><span data-country-id="66" data-currency-id="5"  class="flag"></span> <span>Estonia</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-fi  "><span data-country-id="70" data-currency-id="5"  class="flag"></span> <span>Finland</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-fr  "><span data-country-id="71" data-currency-id="5"  class="flag"></span> <span>France</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-de  "><span data-country-id="77" data-currency-id="5"  class="flag"></span> <span>Germany</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-gr  "><span data-country-id="80" data-currency-id="5"  class="flag"></span> <span>Greece</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-hk  "><span data-country-id="91" data-currency-id="6"  class="flag"></span> <span>Hong Kong</span> <span class="curr-code">(HKD)</span></a>
+                                        <a href="#" class="country flag-hu  "><span data-country-id="92" data-currency-id="5"  class="flag"></span> <span>Hungary</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-ie  "><span data-country-id="98" data-currency-id="5"  class="flag"></span> <span>Ireland</span> <span class="curr-code">(EUR)</span></a>
+                                    </div>
+                                    <div class='col'> <a href="#" class="country flag-it  "><span data-country-id="100" data-currency-id="5"  class="flag"></span> <span>Italy</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-jp  "><span data-country-id="103" data-currency-id="1"  class="flag"></span> <span>Japan</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-lv  "><span data-country-id="113" data-currency-id="5"  class="flag"></span> <span>Latvia</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-lt  "><span data-country-id="120" data-currency-id="5"  class="flag"></span> <span>Lithuania</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-lu  "><span data-country-id="121" data-currency-id="5"  class="flag"></span> <span>Luxembourg</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-mt  "><span data-country-id="128" data-currency-id="5"  class="flag"></span> <span>Malta</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-nl  "><span data-country-id="145" data-currency-id="5"  class="flag"></span> <span>Netherlands</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-nz  "><span data-country-id="148" data-currency-id="1"  class="flag"></span> <span>New Zealand</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-no  "><span data-country-id="153" data-currency-id="1"  class="flag"></span> <span>Norway</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-ph  "><span data-country-id="163" data-currency-id="1"  class="flag"></span> <span>Philippines</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-pl  "><span data-country-id="164" data-currency-id="5"  class="flag"></span> <span>Poland</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-pt  "><span data-country-id="165" data-currency-id="5"  class="flag"></span> <span>Portugal</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-ro  "><span data-country-id="168" data-currency-id="5"  class="flag"></span> <span>Romania</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-sg  "><span data-country-id="179" data-currency-id="1"  class="flag"></span> <span>Singapore</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-sk  "><span data-country-id="180" data-currency-id="5"  class="flag"></span> <span>Slovakia</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-si  "><span data-country-id="181" data-currency-id="5"  class="flag"></span> <span>Slovenia</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-es  "><span data-country-id="185" data-currency-id="5"  class="flag"></span> <span>Spain</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-se  "><span data-country-id="197" data-currency-id="5"  class="flag"></span> <span>Sweden</span> <span class="curr-code">(EUR)</span></a>
+                                        <a href="#" class="country flag-ch  "><span data-country-id="198" data-currency-id="1"  class="flag"></span> <span>Switzerland</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-tw  "><span data-country-id="200" data-currency-id="1"  class="flag"></span> <span>Taiwan</span> <span class="curr-code">(USD)</span></a>
+                                        <a href="#" class="country flag-uk  "><span data-country-id="215" data-currency-id="4"  class="flag"></span> <span>United Kingdom</span> <span class="curr-code">(GBP)</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-logo">
+                        <a href="https://propercloth.com/">
+                        <img src="https://propercloth.com/images/white/PCScissors.png" width="115">
+                      </a>
+                    </div>
+                    495 Broadway &ndash; 6th Floor &ndash; New York, NY 10012
+                    <br>
+                    <b>(646) 964-4221</b>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <footer style="display: none;">
+        <div class="block title hand" rel="1">
+            ABOUT US
+        </div>
+        <div class="block block-toggle block_row_1">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/about">Our Story</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/collections">Our Collections</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_1">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/press">Press Coverage</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/perfect-fit-guarantee">Perfect Fit Guarantee</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_1">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/careers">Careers & Internships</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" class="no-underline">&nbsp;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="block title hand" rel="2">
+            SHOP
+        </div>
+        <div class="block block-toggle block_row_2">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/sizes">Create a Custom Size</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/design-a-shirt/">Design a Shirt</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_2">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/fabrics/">Shirt Fabrics</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirts/">Shirt Gallery</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_2">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/collar-styles">Our Collar Styles</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/accessories/">Accessories</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_2">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/accessories/jackets">Jackets</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirt-gift-certificate">Gift Certificates</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="block title hand" rel="3">
+            HELP
+        </div>
+        <div class="block block-toggle block_row_3">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/reference/ordering-fabric-samples/">Ordering Fabric Samples</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/care/">How to Care for Shirts</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_3">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/reference/dress-shirt-shrink/">How Dress Shirts Shrink</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/common-fit-problems/">Common Fit Problems</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_3">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/reference/how-to-measure-a-dress-shirt/">Measuring Your Shirt</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/reference/dress-shirt-body-measurements/">Measuring Your Body</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_3">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/rewards">Earn Rewards</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/shipping">Shipping & Fast Delivery</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="block title hand" rel="4">
+            SUPPORT
+        </div>
+        <div class="block block-toggle block_row_4">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/dress-shirt-reviews">Customer Reviews</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/account/orders">Track an Existing Order</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_4">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/return-policy">Return Policy</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/reference/general-advice-for-requesting-dress-shirt-alterations/">Alterations and Remakes</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_4">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/reference/category/style/">Style Advice</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/reference/special-events/">Special Events</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_4">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="nofollow" href="https://propercloth.com/appointment">Schedule a Fitting</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a rel="nofollow" href="https://propercloth.com/contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="block title hand" rel="5">
+            CONNECT
+        </div>
+        <div class="block block-toggle block_row_5">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="https://facebook.com/propercloth" target="_blank">Facebook</a>
+                </div>
+                <div class="col-xs-6 border-left">
+                    <a href="https://instagram.com/propercloth" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="block block-toggle block_row_5">
+            <div class="row">
+                <div class="col-xs-6 border-left">
+                    <a href="https://twitter.com/propercloth" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="geo" data-pos="top">
+
+            <div class="selector ">
+                <div class="current"></div>
+                <div class="inner">
+                    <div class="columns">
+                        <div class="col">
+                            <a href="#" class="country flag-us active "><span data-country-id="1" data-currency-id="1"  class="flag"></span> <span>United States</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-ca  "><span data-country-id="2" data-currency-id="2"  class="flag"></span> <span>Canada</span> <span class="curr-code">(CAD)</span></a>
+                            <a href="#" class="country flag-ra  "><span data-country-id="11" data-currency-id="1"  class="flag"></span> <span>Argentina</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-au  "><span data-country-id="14" data-currency-id="3"  class="flag"></span> <span>Australia</span> <span class="curr-code">(AUD)</span></a>
+                            <a href="#" class="country flag-at  "><span data-country-id="15" data-currency-id="5"  class="flag"></span> <span>Austria</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-be  "><span data-country-id="22" data-currency-id="5"  class="flag"></span> <span>Belgium</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-br  "><span data-country-id="31" data-currency-id="1"  class="flag"></span> <span>Brazil</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-bg  "><span data-country-id="34" data-currency-id="5"  class="flag"></span> <span>Bulgaria</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-cn  "><span data-country-id="45" data-currency-id="1"  class="flag"></span> <span>China</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-hr  "><span data-country-id="51" data-currency-id="5"  class="flag"></span> <span>Croatia</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-cy  "><span data-country-id="53" data-currency-id="5"  class="flag"></span> <span>Cyprus</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-cz  "><span data-country-id="54" data-currency-id="5"  class="flag"></span> <span>Czech Republic</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-dk  "><span data-country-id="55" data-currency-id="5"  class="flag"></span> <span>Denmark</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-ee  "><span data-country-id="66" data-currency-id="5"  class="flag"></span> <span>Estonia</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-fi  "><span data-country-id="70" data-currency-id="5"  class="flag"></span> <span>Finland</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-fr  "><span data-country-id="71" data-currency-id="5"  class="flag"></span> <span>France</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-de  "><span data-country-id="77" data-currency-id="5"  class="flag"></span> <span>Germany</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-gr  "><span data-country-id="80" data-currency-id="5"  class="flag"></span> <span>Greece</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-hk  "><span data-country-id="91" data-currency-id="6"  class="flag"></span> <span>Hong Kong</span> <span class="curr-code">(HKD)</span></a>
+                            <a href="#" class="country flag-hu  "><span data-country-id="92" data-currency-id="5"  class="flag"></span> <span>Hungary</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-ie  "><span data-country-id="98" data-currency-id="5"  class="flag"></span> <span>Ireland</span> <span class="curr-code">(EUR)</span></a>
+                        </div>
+                        <div class='col'> <a href="#" class="country flag-it  "><span data-country-id="100" data-currency-id="5"  class="flag"></span> <span>Italy</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-jp  "><span data-country-id="103" data-currency-id="1"  class="flag"></span> <span>Japan</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-lv  "><span data-country-id="113" data-currency-id="5"  class="flag"></span> <span>Latvia</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-lt  "><span data-country-id="120" data-currency-id="5"  class="flag"></span> <span>Lithuania</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-lu  "><span data-country-id="121" data-currency-id="5"  class="flag"></span> <span>Luxembourg</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-mt  "><span data-country-id="128" data-currency-id="5"  class="flag"></span> <span>Malta</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-nl  "><span data-country-id="145" data-currency-id="5"  class="flag"></span> <span>Netherlands</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-nz  "><span data-country-id="148" data-currency-id="1"  class="flag"></span> <span>New Zealand</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-no  "><span data-country-id="153" data-currency-id="1"  class="flag"></span> <span>Norway</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-ph  "><span data-country-id="163" data-currency-id="1"  class="flag"></span> <span>Philippines</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-pl  "><span data-country-id="164" data-currency-id="5"  class="flag"></span> <span>Poland</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-pt  "><span data-country-id="165" data-currency-id="5"  class="flag"></span> <span>Portugal</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-ro  "><span data-country-id="168" data-currency-id="5"  class="flag"></span> <span>Romania</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-sg  "><span data-country-id="179" data-currency-id="1"  class="flag"></span> <span>Singapore</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-sk  "><span data-country-id="180" data-currency-id="5"  class="flag"></span> <span>Slovakia</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-si  "><span data-country-id="181" data-currency-id="5"  class="flag"></span> <span>Slovenia</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-es  "><span data-country-id="185" data-currency-id="5"  class="flag"></span> <span>Spain</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-se  "><span data-country-id="197" data-currency-id="5"  class="flag"></span> <span>Sweden</span> <span class="curr-code">(EUR)</span></a>
+                            <a href="#" class="country flag-ch  "><span data-country-id="198" data-currency-id="1"  class="flag"></span> <span>Switzerland</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-tw  "><span data-country-id="200" data-currency-id="1"  class="flag"></span> <span>Taiwan</span> <span class="curr-code">(USD)</span></a>
+                            <a href="#" class="country flag-uk  "><span data-country-id="215" data-currency-id="4"  class="flag"></span> <span>United Kingdom</span> <span class="curr-code">(GBP)</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-top"></div>
+
+        <div class="block title">
+            495 Broadway 6th Floor New&nbsp;York,&nbsp;NY&nbsp;10012
+        </div>
+        <div class="block title">
+            (646) 964-4221
+        </div>
+        <div class="block title last">
+            &copy; 2018 &nbsp;&nbsp; | &nbsp;&nbsp; <a rel="nofollow" href="https://propercloth.com/terms">Terms &amp; Conditions</a>            &nbsp;&nbsp; | &nbsp;&nbsp; <a rel="nofollow" href="https://propercloth.com/sitemap">Sitemap</a>
+        </div>
+    </footer>
+
+    
+</body>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap_datepicker.js"></script>
+<script src="js/picturefill.min.js"  ></script>
+<script src="dist/build.js"></script>
+
+
+
+
+
+</html>
