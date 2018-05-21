@@ -625,9 +625,24 @@
 
                         <nav class="q-nav">
                             <a href="#" class="btn prev" @click="decrementPage()">Prev</a>
-                            <a href="#" class="btn next form-submit reveal-jump-1">Next</a>
+                            <a href="#" class="btn next form-submit reveal-jump-1" @click="incrementPage()">Next</a>
                         </nav>
                     </section>
+
+                    <section id="smart_size_step_12"  v-if="navPage == 12" class="question first is-current " data-type="radio">
+                        <h2>
+                            <span>11</span>Upload Image</h2>
+
+                        <div class="answers flex-col lg-1-col md-1-col sm-1-col">
+                            <label class="answer"><input type="file" name="file" accept="image/*" capture="camera">
+                            </label>
+                        </div>
+                        <nav class="q-nav">
+                            <a href="#" class="btn prev" @click="decrementPage()">Prev</a>
+                            <a href="#" class="btn next form-submit reveal-jump-1">Submit</a>
+                        </nav>
+                    </section>
+
 
                 </div>
 
@@ -1145,7 +1160,7 @@ export default {
     data: function() {
         return {
             size: '',
-            navPage: 1
+            navPage: 11
         }
     },
     methods: {
